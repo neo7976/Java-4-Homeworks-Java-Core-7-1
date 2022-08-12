@@ -45,10 +45,5 @@ class GeoServiceImplTest {
         Location result = geoService.byIp(ip);
 
         assertThat(local, equalTo(result));
-
-    }
-
-    @Test
-    void byCoordinates() {
     }
 }
